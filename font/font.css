@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Hamerslag DEMO';
+  src: url('Hamerslag DEMO.eot');
+  src: url('Hamerslag DEMO.woff2') format('woff2'),
+       url('Hamerslag DEMO.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hamerslag-DEMO';
+  src: url('Hamerslag-DEMO.woff') format('woff'),
+       url('Hamerslag-DEMO.ttf') format('truetype'),
+       url('Hamerslag-DEMO.svg#Hamerslag-DEMO') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
