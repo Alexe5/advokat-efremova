@@ -18,9 +18,9 @@
 	gtag('config', 'UA-116773711-1');
 	</script>
 </head>
-<body>
+<body id="body">
 
-<div class="preloader">
+<div id="preloader">
 	<div id="circularG">
 		<div id="circularG_1" class="circularG"></div>
 		<div id="circularG_2" class="circularG"></div>
@@ -147,15 +147,22 @@
 		
 </div>
 	
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
 <script src="js/script.js"></script>
 <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
 <script type="text/javascript">
 	$(window).load(function() {
 	$(".preloader").delay(100).fadeOut().remove();    
 	});
+</script> -->
+<script>
+	function deletePreloader() {
+		var pre = document.getElementById('body');
+		var del = document.getElementById('preloader');
+		pre.removeChild(del);
+	}
+	setTimeout(deletePreloader, 500);
 </script>
-
 </body>
 
 </html>
