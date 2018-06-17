@@ -122,12 +122,11 @@
 	});
 </script> -->
 <script>
-	function deletePreloader() {
+	window.onload = function deletePreloader() {
 		var pre = document.getElementById('body');
 		var del = document.getElementById('preloader');
 		pre.removeChild(del);
 	}
-	setTimeout(deletePreloader, 500);
 </script>
 </body>
 
