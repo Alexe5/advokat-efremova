@@ -34,6 +34,13 @@
 		<div id="circularG_8" class="circularG"></div>
 	</div>
 </div>
+<script>
+	window.onload = function deletePreloader() {
+		var pre = document.getElementById('body');
+		var del = document.getElementById('preloader');
+		pre.removeChild(del);
+	}
+</script>
 	
 <div class="wrapper">
 
@@ -118,13 +125,6 @@
 	
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
 <script src="js/script.js"></script>
-<script>
-	window.onload = function deletePreloader() {
-		var pre = document.getElementById('body');
-		var del = document.getElementById('preloader');
-		pre.removeChild(del);
-	}
-</script>
 
 </body>
 
