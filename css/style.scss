@@ -54,7 +54,9 @@ header, nav, article, footer {
 header {
 	display: flex;
 	justify-content: space-between;
-	background: url(../img/logo640.png) no-repeat center center;
+	/*background: url(../img/logo640.png) no-repeat center center;
+	background-size: 7.6em;*/
+	background: url(../img/logo640_new.png) no-repeat center center;
 	background-size: 7.6em;
 	flex-shrink: 0;
 	}
@@ -689,7 +691,8 @@ article {
 
 @media (max-width: 640px) {
 	html, body {	
-		background: url(../img/fon_0.jpg) black;
+		/*background: url(../img/fon_0.jpg) black;*/
+		background: url(../img/fon_0_new.jpg) black;
 		background-size: 23em;
 	}
   
